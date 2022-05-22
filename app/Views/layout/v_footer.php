@@ -2,8 +2,9 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2020</span>
+                        <span>&copy; SIMPUS 2022. All Rights Reserved.</span>
                     </div>
+
                 </div>
             </footer>
             <!-- End of Footer -->
@@ -31,6 +32,20 @@
             <!-- Page level custom scripts -->
             <script src="<?=base_url()?>/template/js/demo/datatables-demo.js"></script>
 
+            <!-- <script src="<?=base_url()?>/calendar-01/js/jquery1.min.js"></script> -->
+            <script src="<?=base_url()?>/calendar-01/js/popper.js"></script>
+            <script src="<?=base_url()?>/calendar-01/js/bootstrap1.min.js"></script>
+            <script src="<?=base_url()?>/calendar-01/js/main1.js"></script>
+
             </body>
 
             </html>
+
+            <script>
+window.setTimeout(function() {
+    $('.alert').fadeTo(500, 0).slideUp(500, function() {
+        $(this).remove();
+
+    });
+}, 2000);
+            </script>

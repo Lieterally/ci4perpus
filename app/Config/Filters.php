@@ -45,7 +45,16 @@ class Filters extends BaseConfig
         ],
         'after' => [
             'Filter_Auth' => ['except' => [
-                'dashboard', "dashboard/*", 'buku', 'buku/*', 'user', 'user/*'
+                '/',
+                'dashboard', "dashboard/*", 
+                'buku', 'buku/*', 
+                'user', 'user/*', 
+                'kategori', 'kategori/*', 
+                'siswa', 'siswa/*', 
+                'rak', 'rak/*',
+                'penerbit', 'penerbit/*',
+                'peminjaman', 'peminjaman/*',
+                'pengembalian', 'pengembalian/*',
                 ]]
             // 'honeypot',
             // 'secureheaders',

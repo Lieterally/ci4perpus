@@ -18,7 +18,7 @@
             <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item active">
+            <li class="nav-item" id="dasbor">
                 <a class="nav-link" href="/Dashboard">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
@@ -34,31 +34,32 @@
 
 
             <!-- Nav Item - Data Administrator -->
-            <li class="nav-item">
-                <a class="nav-link" href="/User/index">
+            <li id="dataadmin" class="nav-item">
+                <a class="nav-link" href="/User">
                     <i class="fas fa-fw fa-database"></i>
                     <span>Data Administrator</span></a>
             </li>
             <!-- Nav Item - Data Administrator -->
-            <li class="nav-item">
-                <a class="nav-link" href="tables.html">
+            <li id="datasiswa" class="nav-item">
+                <a class="nav-link" href="/Siswa">
                     <i class="fas fa-fw fa-database"></i>
                     <span>Data Siswa</span></a>
             </li>
 
             <!-- Nav Item - Data Master -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-                    aria-expanded="true" aria-controls="collapseTwo">
+            <li id="katalogbuku" class="nav-item" onclick="">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsekatalogbukunav"
+                    aria-expanded="true" aria-controls="collapsekatalogbukunav">
                     <i class="fas fa-fw fa-books"></i>
                     <span>Katalog Buku</span>
                 </a>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div id="collapsekatalogbukunav" class="collapse" aria-labelledby="headingTwo"
+                    data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="/Buku/index">Data Buku</a>
-                        <a class="collapse-item" href="cards.html">Kategori</a>
-                        <a class="collapse-item" href="cards.html">Rak</a>
-                        <a class="collapse-item" href="cards.html">Penerbit</a>
+                        <a id="buku" class="collapse-item" href="/Buku">Data Buku</a>
+                        <a id="kategori" class="collapse-item" href="/Kategori">Kategori</a>
+                        <a id="rak" class="collapse-item" href="/Rak">Rak</a>
+                        <a id="penerbit" class="collapse-item" href="/Penerbit">Penerbit</a>
                     </div>
                 </div>
             </li>
@@ -66,16 +67,17 @@
 
 
             <!-- Nav Item - Data Transaksi -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseThree"
-                    aria-expanded="true" aria-controls="collapseTwo">
+            <li id="transaksi" class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsetransaksi"
+                    aria-expanded="true" aria-controls="collapsetransaksi">
                     <i class="fas fa-fw fa-arrow-up-arrow-down"></i>
                     <span>Data Transaksi</span>
                 </a>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div id="collapsetransaksi" class="collapse" aria-labelledby="headingTwo"
+                    data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="buttons.html">Data Peminjaman</a>
-                        <a class="collapse-item" href="buttons.html">Data Pengembalian</a>
+                        <a id="peminjaman" class="collapse-item" href="/Peminjaman">Data Peminjaman</a>
+                        <a id="pengembalian" class="collapse-item" href="/Pengembalian">Data Pengembalian</a>
                     </div>
                 </div>
             </li>
