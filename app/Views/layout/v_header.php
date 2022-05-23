@@ -9,6 +9,8 @@
     <title><?=$title;?></title>
 
     <!-- Custom fonts for this template -->
+
+
     <link href="<?=base_url()?>/template/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link
@@ -22,8 +24,11 @@
     <link href="<?=base_url()?>/template/css/sb-admin-2.min.css" rel="stylesheet">
 
     <!-- Custom styles for this page -->
+
     <link href="<?=base_url()?>/template/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?=base_url()?>/template/css/scroll.css">
+    <script src="https://kit.fontawesome.com/e62ddf0975.js" crossorigin="anonymous"></script>
+
 
 
 

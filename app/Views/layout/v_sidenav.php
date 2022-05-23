@@ -50,7 +50,7 @@
             <li id="katalogbuku" class="nav-item" onclick="">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsekatalogbukunav"
                     aria-expanded="true" aria-controls="collapsekatalogbukunav">
-                    <i class="fas fa-fw fa-books"></i>
+                    <i class="fas fa-fw fa-book"></i>
                     <span>Katalog Buku</span>
                 </a>
                 <div id="collapsekatalogbukunav" class="collapse" aria-labelledby="headingTwo"
@@ -70,7 +70,8 @@
             <li id="transaksi" class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsetransaksi"
                     aria-expanded="true" aria-controls="collapsetransaksi">
-                    <i class="fas fa-fw fa-arrow-up-arrow-down"></i>
+                    <i class="fas fa-fw fa-list-check"></i>
+
                     <span>Data Transaksi</span>
                 </a>
                 <div id="collapsetransaksi" class="collapse" aria-labelledby="headingTwo"

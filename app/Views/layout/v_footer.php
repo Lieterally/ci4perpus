@@ -26,11 +26,13 @@
             <script src="<?=base_url()?>/template/js/sb-admin-2.min.js"></script>
 
             <!-- Page level plugins -->
+            <script src="<?=base_url()?>/template/vendor/chart.js/Chart.min.js"></script>
             <script src="<?=base_url()?>/template/vendor/datatables/jquery.dataTables.min.js"></script>
             <script src="<?=base_url()?>/template/vendor/datatables/dataTables.bootstrap4.min.js"></script>
 
             <!-- Page level custom scripts -->
             <script src="<?=base_url()?>/template/js/demo/datatables-demo.js"></script>
+            <script src="<?=base_url()?>/template/js/demo/chart-area-demo.js"></script>
 
             <!-- <script src="<?=base_url()?>/calendar-01/js/jquery1.min.js"></script> -->
             <script src="<?=base_url()?>/calendar-01/js/popper.js"></script>
